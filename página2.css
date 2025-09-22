@@ -1,0 +1,19 @@
+/*psedoclasse é uma palavra chave a seletores*/
+.caixa{
+background-color: aliceblue;
+color: aqua;
+width: 250px;
+height: 250px
+}
+.caixa:hover{
+  background-color: blueviolet;
+  width: 300px;
+  height: 350px;
+}
+ div > p{
+ display: none;
+ }
+div:hover> p{
+    display: inline;
+    color: brown;
+}
